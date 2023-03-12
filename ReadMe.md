@@ -16,5 +16,25 @@ Download LibriSpeech datasets from OpenSLR website
 ### Update configurations
 
 Configurations are in `myconfig.py`.
-
 You have to update `TRAIN_DATA_DIR` and `TEST_DATA_DIR` path to where your LibriSpeech train and test datasets are located.
+
+
+### Install dependencies
+
+Install the dependencies by running command:
+```
+pip3 install -r requirements.txt
+```
+
+### Run unit tests
+
+To make sure you have the right dependencies and configured the downloaded data  correctly, run the unit tests with this command:
+```
+python3 tests.py
+```
+Output that you should expect:
+```
+Ran ~abc~ tests in ~xyz~ s
+
+OK
+```
