@@ -15,6 +15,6 @@ Download LibriSpeech datasets from OpenSLR website
 
 ### Update configurations
 
-All the configurations are in `myconfig.py`.
+Configurations are in `myconfig.py`.
 
-First, you need to update `TRAIN_DATA_DIR` and `TEST_DATA_DIR` to point to where you have unzipped your LibriSpeech datasets.
+You have to update `TRAIN_DATA_DIR` and `TEST_DATA_DIR` path to where your LibriSpeech train and test datasets are located.
