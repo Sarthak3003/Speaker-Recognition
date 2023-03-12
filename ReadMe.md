@@ -35,6 +35,21 @@ python3 tests.py
 Output that you should expect:
 ```
 Ran ~abc~ tests in ~xyz~ s
-
 OK
+```
+
+### Train a model
+
+For training your model, you have to run the following command:
+```
+python3 neural_net.py
+```
+
+### Evaluate your model
+
+You can evaluate the Equal Error Rate (EER) of this model.
+
+run the command:
+```
+python3 evaluation.py
 ```
